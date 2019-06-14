@@ -1,0 +1,508 @@
+/*
+  Theme Name: Ellementry HTML5 Template
+  Author: 
+  Description: Ellementry HTML5 Bootstrap 4 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. Basic Css
+3. button
+4. Kitchen
+5. website 
+6. Table
+7. Furniture
+8. Decore
+9. Entertain
+10. Footer
+
+    2nd page CSS
+
+11. Header
+12. item
+13. About Website 
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+
+ body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+.button,button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+button{cursor: pointer}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+input:focus,textarea:focus,:focus{outline: 0}
+button:focus {
+  outline: 0 none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #1D1C1B;
+    margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-webkit-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+
+/* 
+-----------------------------
+        Basic Css Start
+-----------------------------
+*/
+
+.section-padding{
+    padding: 80px 0;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 52px;
+    font-weight: 600;
+}
+
+/* 
+-----------------------------
+        Basic Css  Ends
+-----------------------------
+*/
+
+
+/* 
+-----------------------------
+        button  start
+-----------------------------
+*/
+.btn-default{
+    font-size: 18px;
+    padding: 5px 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-01{
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.btn-02{
+    border: 1px solid #1D1C1B;
+    color: #1D1C1B;
+}
+.btn-03{
+    margin-left: 40%;
+    padding: 18px 36px!important;
+    color: #531E1E!important;
+    background: #fff;
+    font-size: 22px;
+}
+    
+
+.btn-01:hover{
+    background: #fff;
+    color: #231F20;
+    -webkit-box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.75);
+}
+.btn-02:hover{
+    background: #1D1C1B;
+    color: #fff;
+    -webkit-box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.75);
+}
+.btn-03:hover{
+    
+}
+
+/* 
+-----------------------------
+        button  Ends
+-----------------------------
+*/
+
+/*-----------------------------
+        Kitchen  starts
+-----------------------------*/
+
+#kitchen{
+    background: url(../images/bg-1.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kitchen-content{
+    padding-top: 42%;
+}
+
+/*----------------------------
+        Kitchen  Ends
+----------------------------*/
+/*-----------------------------
+        website  Start
+-----------------------------*/
+.website-title{
+    font-size: 70px;
+    font-weight: 600;
+    color: #121B21;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.website-content p{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #231F20;
+}
+
+.website-title a:hover{
+    color: #121B21;
+    
+}
+.website-title:hover{
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+
+/*----------------------------
+        website  Ends
+----------------------------*/
+/*----------------------------
+        Table  start
+----------------------------*/
+
+#table{
+    background: url(../images/bg-3.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*-----------------------------
+        Table  Ends
+-------------------------------*/
+/*-----------------------------
+        Furniture  start
+-------------------------------*/
+#furniture{
+    background: url(../images/bg-4.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.furniture-content{
+    padding-top: 8%;
+}
+
+.furniture-content .title{
+    color: #1D1C1B;
+}
+
+.furniture-content .text{
+    color: #1D1C1B;
+    font-weight: 500;
+    font-size: 19px
+}
+
+/* -----------------------------
+        Furniture  Ends
+-------------------------------*/
+/* -----------------------------
+        Decore Start
+-------------------------------*/
+#decore{
+   background: url(../images/bg-5.png)no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.decore-content{
+    padding-top: 15%;
+}
+.decore-content .title{
+    color: #1D1C1B;
+    font-weight: 900;
+}
+.decore-content .text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* -----------------------------
+        Decore  Ends
+-------------------------------*/
+/* -----------------------------
+        Entertain  Start
+-------------------------------*/
+
+#entertain{
+    background: url(../images/bg-6.png)no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.entertain-content{
+    padding-top: 8%;
+}
+.entertain-content .title{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.entertain-content .text{
+    font-weight: 400;
+}
+/* -----------------------------
+        Entertain  Ends
+-------------------------------*/
+
+/* -----------------------------
+        Footer  Start
+-------------------------------*/
+#footer{
+    background: url(../images/location-bg.png)no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.footer-location-mark{
+    padding-left: 75px;
+    padding-top: 1px;   
+}
+.footer-text{
+    padding-top: 43%;
+}
+.footer-text .text-1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.footer-text .text-2{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.social-list{
+    padding: 0;
+    margin-right: -56%;
+    margin-top: 13%;
+    list-style: none;
+}
+
+.social-list li{
+    margin-bottom: 30px;
+}
+.social-list li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #231F20;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.social-list li a:hover{
+    background: #fff;
+    color: #231F20;
+    border: 1px solid #231F20;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+/* -----------------------------
+        Footer  Ends
+-------------------------------*/
+
+
+
+/* 
+-----------------------------
+*
+*
+*
+        2nd page Css
+*
+*
+*
+-------------------------------*/
+.about-bg{
+    background: #531E1E;
+}
+
+
+/* -----------------------------
+        Header  Start
+-------------------------------*/
+#header{
+    
+}
+.header-content{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.about-title{
+    font-size: 62px;
+}
+.about-text{
+    font-size: 28px;
+    color: #F68C50;
+}
+/* -----------------------------
+        Header  Ends
+-------------------------------*/
+/* -----------------------------
+        item  Start
+-------------------------------*/
+#item{
+    background: #531E1E;
+    padding-top: 20px;
+}
+.item-image{
+    width: 90%;
+    margin: 0 auto;
+}
+.item-image img{
+    width: 100%;
+}
+.item-text{
+    font-size: 15px;
+}
+
+
+/* -----------------------------
+        item  Ends
+-------------------------------*/
+
+/* -----------------------------
+    About Website  Start
+-------------------------------*/
+.about-website-content img{
+    width: 80px;    
+}
+/* -----------------------------
+    About Website  Ends
+-------------------------------*/
